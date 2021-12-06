@@ -23,7 +23,7 @@ public class Server {
         System.out.println(msg);
         String string = "";
         System.out.println("Removing vowels...");
-        string = msg.replaceAll("[aeiouAEIOU]", "");
+        string = msg.replaceAll("[aeiouyAEIOUY]", "");
         outServer.println("OUTPUT:"+ string);
 
         // Close in / out
